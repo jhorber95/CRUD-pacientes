@@ -1,11 +1,11 @@
-id;nombres;apellidos;fecha_nacimiento;numero_identificacion;direccion
-1;payment;Cotton;2020-06-18;Industrial Plastic quantify;Legacy Spurs
-2;Borders;withdrawal Administrator human-resource;2020-06-18;full-range salmon;Cheese
-3;Bolivar Fuerte Checking Account;Cote d'Ivoire;2020-06-18;cross-media;Fresh
-4;withdrawal;THX Intelligent backing up;2020-06-17;invoice killer;Arizona calculating El Salvador
-5;index;Corporate Accounts;2020-06-18;plug-and-play FTP salmon;Fantastic Bolivar Fuerte copying
-6;Cotton Bedfordshire optimizing;transmit;2020-06-17;multi-state Handcrafted Cotton Table hacking;bypass cultivate
-7;circuit GB;navigating Books Versatile;2020-06-17;Auto Loan Account;Computer Forward innovative
-8;transmitting proactive;redefine connect;2020-06-17;parsing bandwidth Hat;Reactive Generic Plastic Bacon
-9;Tasty Saint Kitts and Nevis Secured;Tasty Engineer Buckinghamshire;2020-06-18;value-added;exploit deposit Metal
-10;invoice;Generic;2020-06-18;Rustic Alaska Ohio;Bhutan Park Stravenue
+id;nombres;apellidos;fecha_nacimiento;numero_identificacion;direccion;tipo_identificacion
+1;payment;Cotton;2020-06-18;Industrial Plastic quantify;Legacy Spurs;0
+2;Borders;withdrawal Administrator human-resource;2020-06-18;full-range salmon;Cheese;0
+3;Bolivar Fuerte Checking Account;Cote d'Ivoire;2020-06-18;cross-media;Fresh;2
+4;withdrawal;THX Intelligent backing up;2020-06-17;invoice killer;Arizona calculating El Salvador;2
+5;index;Corporate Accounts;2020-06-18;plug-and-play FTP salmon;Fantastic Bolivar Fuerte copying;0
+6;Cotton Bedfordshire optimizing;transmit;2020-06-17;multi-state Handcrafted Cotton Table hacking;bypass cultivate;0
+7;circuit GB;navigating Books Versatile;2020-06-17;Auto Loan Account;Computer Forward innovative;3
+8;transmitting proactive;redefine connect;2020-06-17;parsing bandwidth Hat;Reactive Generic Plastic Bacon;0
+9;Tasty Saint Kitts and Nevis Secured;Tasty Engineer Buckinghamshire;2020-06-18;value-added;exploit deposit Metal;0
+10;invoice;Generic;2020-06-18;Rustic Alaska Ohio;Bhutan Park Stravenue;0

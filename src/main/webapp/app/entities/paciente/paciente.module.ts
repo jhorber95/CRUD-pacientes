@@ -12,5 +12,6 @@ import { pacienteRoute } from './paciente.route';
   imports: [CrudSharedModule, RouterModule.forChild(pacienteRoute)],
   declarations: [PacienteComponent, PacienteDetailComponent, PacienteUpdateComponent, PacienteDeleteDialogComponent],
   entryComponents: [PacienteDeleteDialogComponent],
+  exports: [PacienteComponent]
 })
 export class CrudPacienteModule {}

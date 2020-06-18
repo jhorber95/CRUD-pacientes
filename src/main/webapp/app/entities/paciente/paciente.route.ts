@@ -1,17 +1,16 @@
-import { Injectable } from '@angular/core';
-import { HttpResponse } from '@angular/common/http';
-import { Resolve, ActivatedRouteSnapshot, Routes, Router } from '@angular/router';
-import { JhiResolvePagingParams } from 'ng-jhipster';
-import { Observable, of, EMPTY } from 'rxjs';
-import { flatMap } from 'rxjs/operators';
+import {Injectable} from '@angular/core';
+import {HttpResponse} from '@angular/common/http';
+import {ActivatedRouteSnapshot, Resolve, Router, Routes} from '@angular/router';
+import {JhiResolvePagingParams} from 'ng-jhipster';
+import {EMPTY, Observable, of} from 'rxjs';
+import {flatMap} from 'rxjs/operators';
 
-import { Authority } from 'app/shared/constants/authority.constants';
-import { UserRouteAccessService } from 'app/core/auth/user-route-access-service';
-import { IPaciente, Paciente } from 'app/shared/model/paciente.model';
-import { PacienteService } from './paciente.service';
-import { PacienteComponent } from './paciente.component';
-import { PacienteDetailComponent } from './paciente-detail.component';
-import { PacienteUpdateComponent } from './paciente-update.component';
+import {Authority} from 'app/shared/constants/authority.constants';
+import {IPaciente, Paciente} from 'app/shared/model/paciente.model';
+import {PacienteService} from './paciente.service';
+import {PacienteComponent} from './paciente.component';
+import {PacienteDetailComponent} from './paciente-detail.component';
+import {PacienteUpdateComponent} from './paciente-update.component';
 
 @Injectable({ providedIn: 'root' })
 export class PacienteResolve implements Resolve<IPaciente> {
@@ -47,7 +46,6 @@ export const pacienteRoute: Routes = [
       defaultSort: 'id,asc',
       pageTitle: 'Pacientes',
     },
-    canActivate: [UserRouteAccessService],
   },
   {
     path: ':id/view',
@@ -59,7 +57,6 @@ export const pacienteRoute: Routes = [
       authorities: [Authority.USER],
       pageTitle: 'Pacientes',
     },
-    canActivate: [UserRouteAccessService],
   },
   {
     path: 'new',
@@ -71,7 +68,6 @@ export const pacienteRoute: Routes = [
       authorities: [Authority.USER],
       pageTitle: 'Pacientes',
     },
-    canActivate: [UserRouteAccessService],
   },
   {
     path: ':id/edit',
@@ -83,6 +79,5 @@ export const pacienteRoute: Routes = [
       authorities: [Authority.USER],
       pageTitle: 'Pacientes',
     },
-    canActivate: [UserRouteAccessService],
   },
 ];
